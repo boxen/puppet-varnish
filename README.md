@@ -6,7 +6,7 @@
 include varnish
 ```
 
-To specify a different template for the vcl or a different port to listen to, use options `vcl_template` and `port`:
+Listens to port 8080 by default. To specify a different template for the vcl or a different port to listen to, use options `vcl_template` and `port`:
 ```puppet
 class { "varnish":
     vcl_template => "path/to/template.erb",

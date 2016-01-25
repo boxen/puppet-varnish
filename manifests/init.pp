@@ -2,7 +2,7 @@
 class varnish(
     $ensure = present,
     $vcl_template = 'varnish/default.vcl.erb',
-    $port = 8081,
+    $port = 8080,
 ) {
     include varnish::config
     include homebrew
