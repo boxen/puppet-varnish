@@ -14,7 +14,7 @@ class { "varnish":
 }
 ```
 
-Instance name is defined as `/opt/boxen/homebrew/var/varnish vcl.list`. Here's a few samples of how you can use the CLI tools:
+Instance name is defined as `/opt/boxen/homebrew/var/varnish`. Here's a few samples of how you can use the CLI tools:
 ```
 varnishadm -n /opt/boxen/homebrew/var/varnish vcl.list
 varnishlog -n /opt/boxen/homebrew/var/varnish
