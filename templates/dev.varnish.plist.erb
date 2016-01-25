@@ -21,6 +21,8 @@
             <string>0.0.0.0:<%= @port %></string>
             <string>-p</string>
             <string>pipe_timeout=3600</string>
+            <string>-p</string>
+            <string>vcl_dir=<%= scope.lookupvar "varnish::config::configdir" %></string>
         </array>
 
         <key>KeepAlive</key>
