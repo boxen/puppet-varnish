@@ -1,5 +1,5 @@
 # Varnish Puppet Module for Boxen
-
+[![Build Status](https://travis-ci.org/qrz-io/puppet-varnish.svg?branch=master)](https://travis-ci.org/qrz-io/puppet-varnish)
 ## Usage
 
 ```puppet
